@@ -1,0 +1,2 @@
+insert into sd_sync_autopay_log_tab(client_id, master_client_id, payGroupId, masterPayGroupCode, demoPayGroupCode, syncReqDt, status, statusDescription)values('test_client_id_1','002', '00069c23-05e6-46c5-a3c5-176f26e379c8','1234', '1234', '','SUCCESS', 'Some-description');
+insert into sd_sync_autopay_log_tab(client_id, master_client_id, payGroupId, masterPayGroupCode, demoPayGroupCode, syncReqDt, status, statusDescription)values('test_client_id_3000','002', '00069c23-05e6-46c5-a3c5-176f26e379c8','1234', '1234', '','Failure', 'Some-description');
